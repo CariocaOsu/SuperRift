@@ -27,20 +27,11 @@ public class Campeao{
         return nomeCampeao;
     }
 
-    public boolean isCartaAs() // confere se a carta eh um A que derrota o supertrunfo
-    {
-        if (codigoCarta != null && codigoCarta.length() >= 2 && codigoCarta.charAt(1) == 'A') {
-            return true;
-    }   else {
-            return false;
-        }
+    public boolean isCartaAs() {
+        return this.cartaAs = (codigoCarta != null && codigoCarta.length() >= 2 && codigoCarta.charAt(1) == 'A');
     }
 
     public boolean isSuperTrunfo() {
-        if ( nomeCampeao != null && nomeCampeao.equals("Poro") ){
-            return true;
-    }   else
-            return false;
-    }
+        return this.supertrunfo = (nomeCampeao != null && nomeCampeao.equals("Puro");
 }
 
