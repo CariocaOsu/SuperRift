@@ -32,6 +32,6 @@ public class Campeao{
     }
 
     public boolean isSuperTrunfo() {
-        return this.supertrunfo = (nomeCampeao != null && nomeCampeao.equals("Puro");
+        return this.supertrunfo = (nomeCampeao != null && nomeCampeao.equals("Poro");
 }
 
