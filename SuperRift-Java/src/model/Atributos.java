@@ -1,3 +1,5 @@
+package model;
+
 public class Atributos {
     private int danoDeAtaque;
     private int magia;
@@ -5,13 +7,12 @@ public class Atributos {
     private int armadura;
     private int resistenciaMagica;
 
-    public Atributos(int danoDeAtaque, int magia, int vida, int armadura, int resistenciaMagica, String funcao){
+    public Atributos(int danoDeAtaque, int magia, int vida, int armadura, int resistenciaMagica){
         this.danoDeAtaque = danoDeAtaque;
         this.magia = magia;
         this.vida = vida;
         this.armadura = armadura;
         this.resistenciaMagica = resistenciaMagica;
-        this.funcao = funcao;
     }
 
     public int getDanoDeAtaque(){
@@ -34,4 +35,8 @@ public class Atributos {
         return resistenciaMagica;
     }
 
+    public void poderKruges(){
+        this.armadura += 3;
+        this.resistenciaMagica += 3;
+    }
 }

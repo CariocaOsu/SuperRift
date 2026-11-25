@@ -1,3 +1,5 @@
+package model;
+
 public class Item {
     private String nomeItem;
     private Atributos atributos;
@@ -11,8 +13,7 @@ public class Item {
         return nomeItem;
     }
 
-    public Atributos getAtributos() {
-        return atributos;
+    public Atributos getAtributos() { return atributos; }
     }
-}
+
 

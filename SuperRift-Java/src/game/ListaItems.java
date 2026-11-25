@@ -1,7 +1,12 @@
+package game;
+
+import model.Atributos;
+import model.Item;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class listaItems {
+public class ListaItems {
 
     public List<Item> criarItens() {
         List<Item> itens = new ArrayList<>();
